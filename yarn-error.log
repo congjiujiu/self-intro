@@ -1,0 +1,92 @@
+Arguments: 
+  /Users/cong/.nvm/versions/node/v8.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/cong/.nvm/versions/node/v8.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "reveal.js",
+    "version": "3.6.0",
+    "description": "The HTML Presentation Framework",
+    "homepage": "http://revealjs.com",
+    "subdomain": "revealjs",
+    "main": "js/reveal.js",
+    "scripts": {
+      "test": "grunt test",
+      "start": "grunt serve",
+      "build": "grunt"
+    },
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hakimel/reveal.js.git"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "devDependencies": {
+      "express": "^4.15.2",
+      "grunt": "^1.0.1",
+      "grunt-autoprefixer": "^3.0.4",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-connect": "^1.0.2",
+      "grunt-contrib-cssmin": "^2.1.0",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-qunit": "~1.2.0",
+      "grunt-contrib-uglify": "^2.3.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-sass": "^2.0.0",
+      "grunt-retire": "^1.0.7",
+      "grunt-zip": "~0.17.1",
+      "mustache": "^2.3.0",
+      "socket.io": "^1.7.3"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: /Users/cong/Documents/proj/introduction/node_modules/phantomjs-prebuilt: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c node install.js
+  Directory: /Users/cong/Documents/proj/introduction/node_modules/phantomjs-prebuilt
+  Output:
+  PhantomJS not found on PATH
+  Downloading https://github.com/Medium/phantomjs/releases/download/v2.1.1/phantomjs-2.1.1-macosx.zip
+  Saving to /var/folders/db/6402x9b17bx7fz74f5w1xk240000gn/T/phantomjs/phantomjs-2.1.1-macosx.zip
+  Receiving...
+  
+  Error making request.
+  Error: connect ETIMEDOUT 52.216.82.152:443
+      at Object._errnoException (util.js:1022:11)
+      at _exceptionWithHostPort (util.js:1044:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  
+  Please report this full log at https://github.com/Medium/phantomjs
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
